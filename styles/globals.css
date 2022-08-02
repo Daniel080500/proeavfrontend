@@ -1,0 +1,61 @@
+html {
+
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+
+}
+
+.custom-hover:hover {
+  background-color: rgba(27, 108, 155, 0.185);
+}
+
+.footer-icon {
+  color: #000000;
+  font-size: 1rem;
+}
+
+.footer-icon-facebook {
+  color: #161496;
+  font-size: 3rem;
+}
+
+.footer-icon-whatsapp {
+  color: #0b9722;
+  font-size: 3rem;
+}
+
+.icon-admin {
+  height: 100px;
+  color: #339db8;
+}
+
+.img-productos {
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.table-icon {
+  padding: 2px;
+  font-size: 18px;
+  cursor: pointer;
+  transition-delay: 0.1s;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in;
+}
+
+.table-icon:hover {
+  color: #39bcc5;
+  transform: scale(110%);
+  transition-delay: 0.1s;
+  transition-duration: 0.1s;
+  transition-timing-function: ease-out;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
